@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+h1, h3 {
+    margin-top: 24px;
+}
+
+div.card-1 {
+    border: none;
+    margin: 24px;
+    float: left;
+}
+
+div.card-2 {
+    border: none;
+    margin: 24px;
+    float: left;
+}
+
+img.card-img-top {
+    height:100;
+    width: 180px;
+}
+
+div.card-body {
+    background-color: white;
+}
