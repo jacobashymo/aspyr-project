@@ -1,0 +1,79 @@
+h1, h3 {
+    margin-top: 16px;
+}
+
+div.card-1 {
+    border-width: 2px;
+    border-color: #666666;
+    margin: 16px;
+    float: left;
+}
+
+div.card-2 {
+    border: none;
+    margin: 16px;
+    float: left;
+}
+
+div.card-3 {
+    border: none;
+    margin: 16px;
+    float: left;
+}
+
+div.card-4 {
+    border: none;
+    margin: 16px;
+    float: left;
+}
+
+div.img-container {
+    height: 150px;
+}
+
+img.card-img-top {
+    height: 136.44px;
+    width: 136.44px;
+}
+
+img#gmail {
+    width: 180px;
+}
+
+img#gna {
+    width: 180px;
+    height: 170px;
+}
+
+.container-jumbotron {
+    opacity: 25%;
+    text-align: center;
+}
+
+img#jira {
+    height: 150px;
+    width: 180px;
+}
+
+img#aspyr-layout, img#aspyr-procedures {
+    width: 70%;
+    height: 50%;
+}
+ul, li {
+    text-align: left;
+    margin-left: 32px;
+    list-style-type: circle;
+}
+
+#food-truck {
+    margin: 16px;
+}
+
+.blueprint {
+    width: 66%;
+    margin-bottom: 24px;
+}
+
+.gmail-body, .aspyr-body {
+    margin-left: 24px;
+}

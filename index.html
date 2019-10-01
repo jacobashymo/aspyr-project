@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Aspyr New-hyr</title>
+    <link rel="stylesheet" href="reset.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="newhyr.css" type="text/css">
+</head>
+
+<body style="text-align: center;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Aspyr</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gmail.html">Gmail</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        Aspyr
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="aspyr.html">Main</a>
+                        <a class="dropdown-item" href="">Food Trucks</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="gna.html">G&A</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" id="jumbotron">
+        <div class="container-jumbotron">
+            <h1 class="display-4">Welcome to Aspyr!</h1>
+            <p class="lead">Read the descriptions below and click the necessary links to get set up</p>
+        </div>
+    </div>
+
+    <div class="card-3 col-4" style="width: 18rem;">
+        <div class="img-container">
+            <img class="card-img-top" id="gna" src="https://www.gnapartners.com/wp-content/uploads/2016/08/img-icon-GA_bug.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">G&A</h5>
+            <p class="card-text">G&A is where you'll handle all schedule and pay issues such as time management.</p>
+            <a href="https://secure.entertimeonline.com/ta/2823.login?rnd=QSL" class="btn btn-primary" target="blank">Visit
+                G&A</a>
+        </div>
+    </div>
+
+    <div class="card-1 col-4" style="width: 18rem;">
+        <div class="img-container">
+            <img class="card-img-top" id="gmail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/New_Logo_Gmail.svg/2000px-New_Logo_Gmail.svg.png"
+                alt="Card image cap">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Gmail</h5>
+            <p class="card-text">Use Gmail for important company, team, and individual communications.</p>
+            <a href="https://mail.google.com" class="btn btn-primary" target="blank">Get started!</a>
+            <a href="gmail.html" class="btn btn-primary">Navigate</a>
+        </div>
+    </div>
+
+    <div class="card-2 col-4" style="width: 18rem;">
+        <div class="img-container">
+            <img class="card-img-top" id="stride" src="stride-logo.png" alt="Card image cap">
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Stride</h5>
+            <p class="card-text">Stride is used for quicker communication if you don't want to write out a full email.</p>
+            <a href="https://app.stride.com" class="btn btn-primary" target="blank">Try it out!</a>
+        </div>
+    </div>
+
+    <div class="card-4 col-4" style="width: 18rem;">
+        <img class="card-img-top" id="jira" src="https://d35x3iekzjx6h0.cloudfront.net/wp-content/uploads/2015/11/JIRA-transparent.png"
+            alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Jira</h5>
+            <p class="card-text">Jira is used for helpdesk, i.e. creating tickets, or fulfilling them on the IT end.</p>
+            <a href="https://jira.aspyr.com" class="btn btn-primary" target="blank">Fix stuff</a>
+            <a href="jira.html" class="btn btn-primary">Set it up</a>
+        </div>
+    </div>
+
+    <div class="card-4 col-4" style="width: 18rem;">
+        <img class="card-img-top" id="aspyr-layout" src="aspyr-logo.jpg">
+        <div class="card-body">
+            <h5 class="card-title">Aspyr</h5>
+            <p class="card-text">"Where might I find ______?"</p>
+            <a href="aspyr.html" class="btn btn-primary" target="blank">Find it</a>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+
+<!-- time clock, pay stubs, paperwork and such (find url for paperwork and pay stubs)-->
